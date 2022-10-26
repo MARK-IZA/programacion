@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class EjercicioCirculo2 {
     public static void main(String[] args) throws IOException {
         int numero = 0;
-        final double PI = 3.146;
+        final double PI = 3.1416;
         double area;
         double radio;
         double perímetro = 0;
