@@ -20,38 +20,40 @@ public class EjercicioCirculo2 {
 
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         String entrada;
+            switch (opc) {
+                case 1:
 
-        switch (opc) {
-            case 1:
-                System.out.print("Ingrese el radio");
-                entrada = bufer.readLine();
-                radio = Double.parseDouble(entrada);
+                    System.out.print("Ingrese el radio");
+                    entrada = bufer.readLine();
+                    radio = Double.parseDouble(entrada);
 
-                perímetro = 2*PI*radio;
+                    perímetro = 2 * PI * radio;
 
-                System.out.print("El perímetro del circulo es:" +perímetro );
-                break ;
-            case 2:
-                System.out.print("Ingrese el radio");
-                entrada = bufer.readLine();
-                radio = Double.parseDouble(entrada);
+                    System.out.print("El perímetro del circulo es:" + perímetro);
+                    break;
+                case 2:
+                    System.out.print("Ingrese el radio");
+                    entrada = bufer.readLine();
+                    radio = Double.parseDouble(entrada);
 
-                area = PI * radio * radio;
+                    area = PI * radio * radio;
 
-                System.out.print("El área del circulo es:" +area );
-                break ;
-            case 3:
-                System.out.print("Ingrese el radio" );
+                    System.out.print("El área del circulo es:" + area);
+                    break;
+                case 3:
+                    System.out.print("Ingrese el radio");
 
-                entrada = bufer.readLine();
-                radio = Double.parseDouble(entrada);
+                    entrada = bufer.readLine();
+                    radio = Double.parseDouble(entrada);
 
-                volumen = 4%3*PI*radio*radio*radio;
-                System.out.println("El volumen es:" +volumen);
-                break ;
+                    volumen = 4 % 3 * PI * radio * radio * radio;
+                    System.out.println("El volumen es:" + volumen);
+                    break;
 
-            default:
-                System.out.println("Opcion incorrecta");
+                default:
+                    System.out.println("Opcion incorrecta");
+                }
+
+
+            }
         }
-    }
-}
