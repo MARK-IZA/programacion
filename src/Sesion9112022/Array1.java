@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Array1 {
     public static void main(String[] args) {
-        //declaramos el arra y decimos cuantos integer vamos a meter
+        //declaramos el array y decimos cuantos integer vamos a meter
         int[] notas_1ertrimestre = new int[5];
         //aqui las declaramos y le damos valor a la notas
         notas_1ertrimestre[0] = 7;
